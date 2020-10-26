@@ -1,0 +1,28 @@
+{
+  "bug_dir": "/Users/hao/Projects/Montage/bugs",
+  "data_dir": "/Users/hao/Projects/Montage/data",
+  "eng_name": "chakra",
+  "eng_path": "/Users/hao/Projects/Montage/ChakraCore/out/Release/mac/ch",
+  "gpu": false,
+  "max_ins": 100,
+  "model_path": "/Users/hao/Projects/Montage/data/models/epoch-10.model",
+  "model": {
+    "batch_size": 128,
+    "emb_size": 32,
+    "epoch": 10,
+    "gamma": 0.9,
+    "lr": 0.1,
+    "momentum": 0.9,
+    "split_size": 64,
+    "test_frac": 0.3,
+    "type_loss_weight": 10,
+    "weight_decay": 0.0001
+  },
+  "num_gpu": 8,
+  "num_proc": 2,
+  "opt": [],
+  "run_mode": "test",
+  "seed_dir": "/Users/hao/Projects/Montage/js-test-suite/testsuite-mini",
+  "timeout": 20,
+  "top_k": 4
+}

@@ -1,0 +1,11 @@
+*.p
+*.pyc
+*.swp
+bugs/
+data/
+.idea/
+node_modules/
+package-lock.json
+src/fuzz/id_map.py
+src/node_modules/
+src/package-lock.json

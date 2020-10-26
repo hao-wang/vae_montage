@@ -1,0 +1,25 @@
+{
+  "gpu": true,
+  "bug_dir": "/content/Montage/bugs",
+  "data_dir": "/content/mydrive/colab_data/Montage/",
+  "eng_name": "chakra",
+  "eng_path": "/content/Montage/ChakraCore/out/Release/linux/ch",
+  "max_ins": 100,
+  "model_path": "/content/Montage/models/epoch-70.model",
+  "model": {
+    "batch_size": 128,
+    "emb_size": 32,
+    "epoch": 100,
+    "gamma": 0.9,
+    "lr": 0.1,
+    "momentum": 0.9,
+    "split_size": 64,
+    "weight_decay": 0.0001
+  },
+  "num_gpu": 8,
+  "num_proc": 80,
+  "opt": [],
+  "seed_dir": "/content/Montage/js-test-suite/testsuite-mini",
+  "timeout": 20,
+  "top_k": 64
+}
